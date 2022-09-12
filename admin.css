@@ -1,0 +1,36 @@
+table{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    display: table;
+    border: 1px solid black;
+}
+td{
+    position: inherit;
+    padding: 10px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-spacing: 10px;
+
+}
+.list_admin{
+    text-decoration: underline;
+}
+ul {
+   padding-left: 40px;
+   margin-top: 2em;
+   margin-bottom: 2em;
+   font-size: 20px;
+   text-decoration: underline;
+}
+#change{
+    width: 100px;
+     background: white; 
+     color: black;
+    font-size: 12px;
+    position: static;
+}
+#form_for_admin{
+    position: static;
+    display: inline;
+}
